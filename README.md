@@ -1,5 +1,7 @@
 <img width="262" alt="Screenshot 2024-12-16 at 10 35 03 AM" src="https://github.com/user-attachments/assets/0771a856-8be3-4103-9901-77391f793f17" />
 
+The Simple Weather App allows users to search for and display current weather information for any city, including temperature, humidity, wind speed, and more. It uses https://www.weatherapi.com/for retrieving weather data, Kotlin for development, Jetpack Compose for the user interface, Retrofit for network requests, Hilt for dependency injection, and follows the MVI design pattern along with Clean Architecture principles to keep the code modular and maintainable. The app also handles loading states and errors gracefully, ensuring a smooth user experience.
+
 ### Application Functions
 
 1. **Search for Weather Data**:
