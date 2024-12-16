@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias(libs.plugins.jetbrainsKotlinSerialization)
+    alias(libs.plugins.daggerHiltAndroid)
+    id("kotlin-kapt")
 }
 
 android {
@@ -67,9 +70,24 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    val retrofit ="2.11.0"
-    implementation("com.squareup.retrofit2:retrofit:$retrofit")
-    implementation("com.squareup.retrofit2:converter-gson:$retrofit")
+    // Extended Icons
+    implementation(libs.androidx.material.icons.extended)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.kotlinx.serialization.json)
+
+    //Retrofit
+    implementation (libs.retrofit)
+    implementation (libs.retrofitConverterGson)
+    implementation (libs.okhttpLoggingInterceptor)
+    implementation (libs.gson)
+
+
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
+    kapt(libs.androidx.hilt.compiler)
+    implementation(libs.androidx.hilt.navigation.compose)
 
     implementation("androidx.compose.runtime:runtime-livedata:1.7.5")
     implementation("io.coil-kt:coil-compose:2.6.0")

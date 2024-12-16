@@ -1,6 +1,6 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.data.remote
 
-import okhttp3.Response
+import com.example.simpleweatherapp.domain.model.WeatherModel
 import retrofit2.http.GET
 import retrofit2.http.Query
 

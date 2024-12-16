@@ -1,8 +1,8 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.data.model
 
-data class Current(
+data class CurrentDto(
     val cloud: Int,
-    val condition: Condition,
+    val condition: ConditionDto,
     val dewpoint_c: Double,
     val dewpoint_f: Double,
     val feelslike_c: Double,

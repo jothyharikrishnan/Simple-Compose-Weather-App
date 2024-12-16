@@ -1,6 +1,7 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.data.model
 
-data class Location(
+
+data class LocationDto(
     val country: String,
     val lat: Double,
     val localtime: String,

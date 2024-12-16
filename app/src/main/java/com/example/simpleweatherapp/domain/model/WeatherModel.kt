@@ -1,4 +1,4 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.domain.model
 
 data class WeatherModel(
     val current: Current,

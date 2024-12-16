@@ -1,4 +1,4 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.data.remote
 
 object Constants {
 

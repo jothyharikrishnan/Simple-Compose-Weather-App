@@ -1,4 +1,4 @@
-package com.example.simpleweatherapp.api
+package com.example.simpleweatherapp.utils
 
 //T refers tp weather Model
 sealed class NetworkResponse<out T> {
