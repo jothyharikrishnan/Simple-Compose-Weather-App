@@ -89,4 +89,9 @@ com.example.simpleweatherapp
     └── NetworkResponse.kt
 
 ```
+### Future Development
+1. **Fetch 7 Days of Weather Data:** Extend the app to include a 7-day weather forecast to provide users with more comprehensive weather information.
 
+2. **Write Unit and UI Tests:** Enhance the app's reliability and maintainability by writing comprehensive unit and UI tests.
+
+3. **Enhance User Experience:** Need to improve user experience.
