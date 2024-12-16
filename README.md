@@ -19,29 +19,14 @@ The Simple Weather App allows users to search for and display current weather in
 
 ### Tech Stack Used
 
-1. **Kotlin**:
-   - Primary programming language for Android development.
-
-2. **Jetpack Compose**:
-   - Used for building the UI in a declarative way, ensuring a modern and responsive user experience.
-
-3. **Retrofit**:
-   - For making network requests to the weather API.
-
-4. **Hilt**:
-   - Dependency Injection framework that simplifies the management of dependencies, making the code more modular and easier to test.
-
-5. **ViewModel and LiveData**:
-   - Part of Android Architecture Components, used to manage UI-related data in a lifecycle-aware manner.
-
-6. **Coroutines**:
-   - For handling asynchronous tasks like network calls, ensuring smooth and responsive UI.
-
-7. **MVI (Model-View-Intent) Design Pattern**:
-   - Ensures clear separation of concerns, making the app more maintainable and testable.
-
-8. **Clean Architecture**:
-   - Organizes the code into different layers (data, domain, presentation), promoting a modular and scalable architecture.
+1. **Kotlin**
+2. **Jetpack Compose**
+3. **Retrofit**
+4. **Hilt**
+5. **ViewModel and LiveData**
+6. **Coroutines**
+7. **MVI (Model-View-Intent) Design Pattern**
+8. **Clean Architecture**
 
 ### Package Structure
 
