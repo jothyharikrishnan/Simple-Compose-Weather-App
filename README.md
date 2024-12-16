@@ -51,10 +51,10 @@ com.example.simpleweatherapp
 │   ├── di
 │   │   └── AppModule.kt
 │   ├── model
-│   │   ├── Condition.kt
-│   │   ├── Current.kt
-│   │   ├── Location.kt
-│   │   └── WeatherModel.kt
+│   │   ├── ConditionDto.kt
+│   │   ├── CurrentDto.kt
+│   │   ├── LocationDto.kt
+│   │   └── WeatherModelDto.kt
 │   ├── repository
 │   │   ├── WeatherRepository.kt
 │   │   └── WeatherRepositoryImpl.kt
@@ -76,9 +76,15 @@ com.example.simpleweatherapp
 ├── presentation
 │   ├── ui
 │   │   └── WeatherPage.kt
+│   │   └── WeatherDetails.kt
+|   |   └── WeatherState.kt
+|   |   └── WeatherAction.kt
 │   └── viewmodel
 │       └── WeatherViewModel.kt
+├── mapper
+│   └── WeatherModelMapper.kt
 └── utils
     └── Resource.kt
+
 ```
 
