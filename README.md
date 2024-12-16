@@ -84,7 +84,7 @@ com.example.simpleweatherapp
 ├── mapper
 │   └── WeatherModelMapper.kt
 └── utils
-    └── Resource.kt
+    └── NetworkResponse.kt
 
 ```
 
