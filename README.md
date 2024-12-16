@@ -4,18 +4,9 @@ The Simple Weather App allows users to search for and display current weather in
 
 ### Application Functions
 
-1. **Search for Weather Data**:
-   - Users can enter a city name to retrieve current weather information.
-   - The search functionality is responsive and provides results quickly.
-
-2. **Display Current Weather Information**:
-   - Shows detailed weather data including temperature, humidity, wind speed, UV index, and precipitation.
-   - Displays weather conditions with appropriate icons and descriptions.
-   - Provides location details such as city name and country.
-
-3. **Loading and Error Handling**:
-   - Shows a loading indicator while fetching data from the weather API.
-   - Handles errors gracefully by displaying user-friendly error messages if data retrieval fails.
+1. **Search for Weather Data**
+2. **Display Current Weather Information**
+3. **Loading and Error Handling**
 
 ### Tech Stack Used
 
