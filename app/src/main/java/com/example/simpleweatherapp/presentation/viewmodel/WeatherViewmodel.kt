@@ -21,7 +21,7 @@ class WeatherViewModel @Inject constructor(
     private val _weatherState = MutableLiveData<WeatherState>()
     val weatherState: LiveData<WeatherState> = _weatherState
 
-    fun dispatch(action: WeatherAction) {
+    fun fetchData(action: WeatherAction) {
         when (action) {
             is WeatherAction.LoadWeather -> {
                 getData(action.city)
