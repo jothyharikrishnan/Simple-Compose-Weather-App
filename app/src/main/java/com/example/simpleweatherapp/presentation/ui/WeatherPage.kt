@@ -42,7 +42,6 @@ fun WeatherPage(viewModel: WeatherViewModel = hiltViewModel()) {
 
         when (val state = weatherState) {
             is WeatherState.Error -> {
-                Log.d("SearchBar : ", "Error : ${state.message}")
                 WeatherResponseStatus(message = "Weather data could not be fetched. Please enter a valid location.",
                     imageVector = Icons.Outlined.CloudOff)
             }
@@ -50,7 +49,6 @@ fun WeatherPage(viewModel: WeatherViewModel = hiltViewModel()) {
             is WeatherState.Success -> {
                 WeatherDetails(data = state.data)
                 keyboardController?.hide()
-                Log.d("SearchBar : ", "Success : ${state.data}")
             }
             else -> WeatherResponseStatus(message = "Please search for your location to get the weather information.",
                 imageVector =Icons.Outlined.ImageSearch )
